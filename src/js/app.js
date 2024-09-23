@@ -1,5 +1,5 @@
 
-function (person) {
+function HPperson (person) {
     person
     if (person.health >= 50) {
         return healthy;
