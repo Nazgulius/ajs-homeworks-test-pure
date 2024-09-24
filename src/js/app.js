@@ -1,6 +1,9 @@
 
-function HPperson (person) {
-    person
+export function personHP (person) {    
+  const healthy = 'grean';
+  const wounded = 'yellow';
+  const critical = 'red';
+
     if (person.health >= 50) {
         return healthy;
     } else if (person.health >= 15) {
